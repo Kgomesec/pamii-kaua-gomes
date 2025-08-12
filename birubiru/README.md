@@ -4,10 +4,10 @@ Este guia detalha os passos para configurar um ambiente de desenvolvimento e cri
 
 ## Pré-requisitos
 
-Antes de começar, certifique-se de ter o seguinte:
+Antes de começar, certifique-se de ter instalado os seguintes softwares em seu computador:
 
 *   **Node.js** (versão recomendada: \>= 20.0.0)
-*   **npm** ou **yarn** (gerenciador de pacotes) - **Recomendado: pnpm**
+*   **npm** ou **yarn** (gerenciador de pacotes)
 *   **Editor de código** (ex: VS Code, Sublime Text)
 *   **Dispositivo móvel** (Android ou iOS) ou emulador/simulador
 *   **Expo Go** (aplicativo para testes em dispositivos)
@@ -16,14 +16,12 @@ Antes de começar, certifique-se de ter o seguinte:
 
 1.  **Instalação do Expo CLI:**
 
-    Abra o terminal e execute o seguinte comando para instalar o Expo CLI globalmente:
+    Abra o terminal e execute o seguinte comando para instalar o Expo CLI:
 
     ```bash
     npm install -g expo-cli
     # ou
     yarn global add expo-cli
-    # ou (Recomendado)
-    pnpm add -g expo-cli
     ```
 
 2.  **Criação do Projeto Expo:**
@@ -35,7 +33,7 @@ Antes de começar, certifique-se de ter o seguinte:
     ```
 
     *   Escolha um template (ex: "blank" para começar do zero, "tabs" para uma aplicação com abas, "typescript" para usar TypeScript).
-    *   Escolha o gerenciador de pacotes (npm, yarn ou pnpm). **Recomendado: pnpm**
+    *   Escolha o gerenciador de pacotes (npm ou yarn).
 
 3.  **Navegação no Projeto:**
 
@@ -53,13 +51,11 @@ Antes de começar, certifique-se de ter o seguinte:
     npm start
     # ou
     yarn start
-    # ou
-    pnpm start
     ```
 
     *   Um navegador abrirá com o Expo Dev Tools.
     *   Você pode escanear o QR code com o aplicativo Expo Go no seu dispositivo móvel ou usar um emulador/simulador.
-    *   **Novo:** O Expo Dev Tools agora oferece opções para simular diferentes dispositivos e tamanhos de tela.
+    *   O Expo Dev Tools agora oferece opções para simular diferentes dispositivos e tamanhos de tela.
 
 5.  **Testando no Dispositivo:**
 
@@ -69,7 +65,7 @@ Antes de começar, certifique-se de ter o seguinte:
 
 6.  **Estrutura do Projeto:**
 
-    O projeto Expo terá a seguinte estrutura básica (com as últimas atualizações):
+    O projeto Expo terá a seguinte estrutura básica:
 
     ```
     meu-primeiro-app/
@@ -85,7 +81,7 @@ Antes de começar, certifique-se de ter o seguinte:
 
     *   Edite o arquivo `App.js` (ou `App.tsx` se você usou TypeScript) para começar a desenvolver sua aplicação.
     *   Use os componentes e APIs do React Native e Expo.
-    *   **Novo:** O Expo agora suporta atualizações "over-the-air" (OTA) mais facilmente, permitindo que você atualize sua aplicação sem precisar enviar uma nova versão para as lojas.
+    *   O Expo agora suporta atualizações "over-the-air" (OTA) mais facilmente, permitindo que você atualize sua aplicação sem precisar enviar uma nova versão para as lojas.
 
 8.  **Publicação:**
 
@@ -100,12 +96,8 @@ Antes de começar, certifique-se de ter o seguinte:
 
 ## Dicas e Recursos Adicionais
 
-*   **Documentação do Expo:** Explore a documentação oficial para obter informações detalhadas:
+*   **Documentação do Expo:** Explore a documentação oficial para obter informações detalhadas: https://docs.expo.dev
 *   **Expo SDK:** Mantenha seu Expo SDK atualizado para obter as últimas funcionalidades e correções de bugs.
 *   **Expo CLI:** Use a Expo CLI para gerenciar seu projeto, incluindo a instalação de dependências, a criação de builds e a publicação.
 *   **React Native:** Aprenda os fundamentos do React Native para construir interfaces de usuário nativas.
 *   **Comunidade Expo:** Participe da comunidade Expo para obter suporte e compartilhar suas experiências.
-
-## Contribuições
-
-Sinta-se à vontade para contribuir com este guia! Crie um pull request com suas sugestões e melhorias.

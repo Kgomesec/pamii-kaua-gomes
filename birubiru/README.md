@@ -1,6 +1,6 @@
 # Guia de Início Rápido para Aplicações Expo
 
-Este guia detalha os passos para configurar um ambiente de desenvolvimento e criar sua primeira aplicação Expo, com as últimas atualizações.
+Este guia detalha os passos para configurar um ambiente de desenvolvimento e criar sua primeira aplicação Expo.
 
 ## Pré-requisitos
 
